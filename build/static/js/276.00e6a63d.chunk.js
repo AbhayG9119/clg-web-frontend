@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkclg_web=self.webpackChunkclg_web||[]).push([[276],{276:(a,c,e)=>{e.r(c),e.d(c,{default:()=>l});e(5043);var s=e(579);const l=()=>(0,s.jsx)("section",{className:"faculty-page",children:(0,s.jsxs)("div",{className:"faculty-container",children:[(0,s.jsx)("h1",{className:"faculty-heading",children:"Faculty"}),(0,s.jsx)("p",{className:"faculty-para",children:"Updated Soon....."})]})})}}]);
+//# sourceMappingURL=276.00e6a63d.chunk.js.map

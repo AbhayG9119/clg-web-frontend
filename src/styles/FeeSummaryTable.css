@@ -1,0 +1,68 @@
+.fee-summary-table {
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+.fee-summary-table h3 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+.fee-summary-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fee-summary-table th,
+.fee-summary-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.fee-summary-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #495057;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.fee-summary-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.fee-summary-table .total-row {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+
+.fee-summary-table .total-row td {
+  border-top: 2px solid #dee2e6;
+}
+
+.balance-due {
+  color: #dc3545;
+  font-weight: 500;
+}
+
+.paid {
+  color: #28a745;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .fee-summary-table th,
+  .fee-summary-table td {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .fee-summary-table h3 {
+    font-size: 16px;
+  }
+}

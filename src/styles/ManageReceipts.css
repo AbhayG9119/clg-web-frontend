@@ -1,0 +1,243 @@
+.manage-receipts-container {
+  padding: 20px;
+}
+
+.manage-receipts-header {
+  margin-bottom: 20px;
+}
+
+.manage-receipts-header h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.manage-receipts-header p {
+  color: #666;
+  margin: 0;
+}
+
+.message {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #e8f5e8;
+  color: #2e7d32;
+}
+
+.message.error {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.tab-buttons {
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tab-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.tab-button:hover {
+  background-color: #0056b3;
+}
+
+.generate-section h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.loading-text {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.student-details {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.student-details h4 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.student-details p {
+  margin: 5px 0;
+}
+
+.payment-list {
+  margin-bottom: 15px;
+}
+
+.payment-list label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.payment-scroll {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.payment-item {
+  padding: 10px;
+  cursor: pointer;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s;
+}
+
+.payment-item:hover {
+  background-color: #f8f9fa;
+}
+
+.payment-item.selected {
+  background-color: #e3f2fd;
+}
+
+.payment-item div {
+  margin: 2px 0;
+}
+
+.no-payments {
+  margin-bottom: 15px;
+  color: #dc3545;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.receipts-list h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.receipts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.receipts-table th,
+.receipts-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.receipts-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.receipts-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.status-badge {
+  padding: 3px 8px;
+  border-radius: 12px;
+  color: white;
+  font-size: 12px;
+}
+
+.status-active {
+  background-color: #28a745;
+}
+
+.status-cancelled {
+  background-color: #dc3545;
+}
+
+.action-button {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+}
+
+.download-button {
+  background-color: #007bff;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}
+
+.duplicate-button {
+  background-color: #17a2b8;
+}
+
+.duplicate-button:hover {
+  background-color: #138496;
+}
+
+.no-receipts {
+  color: #666;
+  font-style: italic;
+}
